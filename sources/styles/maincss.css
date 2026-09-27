@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
 body {
-    background: radial-gradient(#c678e2 0%, #312ed1 100%);
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg,#c678e2 0%, #312ed1 100%);
 }
 
+p {
+    color: aquamarine;
+}
 .nav-link {
     color: gold;
 }
@@ -20,5 +26,73 @@ body {
 }
 .sidebar {
     color: aquamarine;
-    background: radial-gradient(270deg,#f2f0f3 0%, #312ed1 100%);
+    background: linear-gradient(270deg,#f2f0f3 0%, #312ed1 100%);
+}
+
+.card {
+    color: aquamarine;
+    background: linear-gradient(270deg,#f2f0f3 0%, #312ed1 100%);
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg,#040500 0%, #ececec 100%);
+}
+
+.media-linkss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.btn-primary {
+    background: linear-gradient(270deg,#040500 0%, #ececec 100%);
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
 }
