@@ -1,0 +1,24 @@
+body {
+    background: radial-gradient(#c678e2 0%, #312ed1 100%);
+}
+
+.nav-link {
+    color: gold;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 40px;
+
+}
+
+.navbar-toggler {
+    background-color: silver;
+}
+.sidebar {
+    color: aquamarine;
+    background: radial-gradient(270deg,#f2f0f3 0%, #312ed1 100%);
+}
